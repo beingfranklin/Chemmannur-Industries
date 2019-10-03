@@ -152,6 +152,15 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.login-tab {
+  background-color: #1bb1dc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  color: #fff !important;
+}
 
 #header {
   height: 110px;
@@ -212,9 +221,10 @@ h6 {
 
 #intro {
   width: 100%;
+  margin-right: 30%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/bottlebg-wq.png") right top no-repeat;
   background-size: cover;
 }
 
