@@ -511,6 +511,7 @@ h6 {
 
 #about {
   padding: 80px 0;
+  background: #212121
 }
 
 #about .about-content {
@@ -518,7 +519,7 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #1bb1dc;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -528,6 +529,11 @@ h6 {
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
+}
+
+#about .about-content p {
+  /* color: rgb(231, 231, 231); */
+  color: #ebf1fa;
 }
 
 #about .about-content ul {
@@ -604,6 +610,7 @@ h6 {
   /* border: 8px solid #fff; */
   transition: .5s;
   border-radius: 15px;
+  background: #C4C4C4
 }
 
 #about .about-img img:hover {
@@ -618,9 +625,9 @@ h6 {
   top: -30px;
   width: 90%;
   height: 92%;
-  z-index: -1;
+  z-index: 0;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #4A4A4A;
   transition: .5s;
   border-radius: 15px;
 }
@@ -1292,16 +1299,21 @@ h6 {
 #footer {
   padding: 0 0 30px 0;
   font-size: 14px;
-  background: #fff;
+  background: #212121
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  /* background: #f5f8fd; */
+  background: #212121
 }
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h5 {
+  color: #dfdfdf;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1310,7 +1322,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color: #ebf1fa;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1321,7 +1333,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #535074;
+  color: #979797;
 }
 
 #footer .footer-top .social-links a {
@@ -1347,7 +1359,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color: #66C4EC;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1355,6 +1367,7 @@ h6 {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  color: #979797;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1501,7 +1514,7 @@ h6 {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  color: #66C4EC;
   font-size: 15px;
 }
 
@@ -1509,15 +1522,16 @@ h6 {
   text-align: center;
   font-size: 14px;
   padding-top: 4px;
-  color: #8582a8;
+  color: #66C4EC;
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #0091f1;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: #0091f1;
+
 }
 
 /*--------------------------------------------------------------
