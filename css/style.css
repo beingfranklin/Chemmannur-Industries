@@ -231,7 +231,8 @@ h6 {
 #intro .intro-info h2 {
   color: #413e66;
   margin-bottom: 40px;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  text-transform: uppercase;
   font-weight: 700;
 }
 
@@ -594,6 +595,14 @@ h6 {
   content: '';
   background-color: #bdbbbb;
   transition: .5s;
+}
+
+.sub-cat {
+  font-family: "Montserrat", sans-serif;
+  color: #d1d1d1;
+  font-family: inherit;
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
 }
 
 /* ------------------------  */
